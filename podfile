@@ -1,0 +1,33 @@
+workspace 'AppDemo.xcworkspace'
+platform :ios, '13.0'
+
+use_frameworks!
+load './Api/api_v1.rb'
+
+target :Common do
+  project 'Common/Common.xcodeproj'
+
+  pod 'Alamofire'
+
+ end
+
+target :AppDemo do
+	project 'App/AppDemo/AppDemo.xcodeproj'
+	pod 'Common', :path => './Common/'
+	
+	load_api_pods
+end
+
+target :ApiModelSerialize do
+  	project 'Api/ApiModelSerialize/ApiModelSerialize.xcodeproj'
+
+  	pod 'Common', :path => './Common/'
+  	pod 'SwiftyJSON'
+end
+
+target :ApiNetwork do
+	project 'Api/ApiNetwork/ApiNetwork.xcodeproj'
+
+	pod 'Common', :path => './Common/'
+  	pod 'Alamofire'
+end

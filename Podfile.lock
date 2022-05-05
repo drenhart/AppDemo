@@ -1,0 +1,42 @@
+PODS:
+  - Alamofire (5.5.0)
+  - ApiModelSerialize (0.0.1):
+    - Common
+    - SwiftyJSON
+  - ApiNetwork (0.0.1):
+    - Alamofire
+    - Common
+  - Common (0.0.1):
+    - Alamofire
+  - SwiftyJSON (5.0.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - ApiModelSerialize (from `./Api/ApiModelSerialize/`)
+  - ApiNetwork (from `./Api/ApiNetwork/`)
+  - Common (from `./Common/`)
+  - SwiftyJSON
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - SwiftyJSON
+
+EXTERNAL SOURCES:
+  ApiModelSerialize:
+    :path: "./Api/ApiModelSerialize/"
+  ApiNetwork:
+    :path: "./Api/ApiNetwork/"
+  Common:
+    :path: "./Common/"
+
+SPEC CHECKSUMS:
+  Alamofire: 1c4fb5369c3fe93d2857c780d8bbe09f06f97e7c
+  ApiModelSerialize: 577a5bfac1ff2a41273284137ab59e3021329f8d
+  ApiNetwork: bedc32ca160a57fd0f0ce8da7405674be1455d69
+  Common: da447e16223a488bee33b8d41a32fce468f26cab
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+
+PODFILE CHECKSUM: 07ef28c9ba7f8d4f00f0a53cf07231b10522783b
+
+COCOAPODS: 1.11.2

@@ -1,0 +1,6 @@
+framework module ApiModelSerialize {
+  umbrella header "ApiModelSerialize-umbrella.h"
+
+  export *
+  module * { export * }
+}

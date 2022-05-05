@@ -1,0 +1,25 @@
+{
+  "name": "Common",
+  "version": "0.0.1",
+  "summary": "Common api",
+  "description": "Common library",
+  "homepage": "http://confluence.zzyn.net:8090/",
+  "license": "MIT",
+  "authors": {
+    "drenhart": "drenhart@163.com"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source": {
+    "path": ".",
+    "tag": "0.0.1"
+  },
+  "source_files": "Common/Source/**/*.{swift}",
+  "resources": "Common/Resource/**",
+  "dependencies": {
+    "Alamofire": [
+
+    ]
+  }
+}

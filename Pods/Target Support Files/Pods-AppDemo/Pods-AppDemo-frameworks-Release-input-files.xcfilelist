@@ -1,0 +1,6 @@
+${PODS_ROOT}/Target Support Files/Pods-AppDemo/Pods-AppDemo-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/ApiModelSerialize/ApiModelSerialize.framework
+${BUILT_PRODUCTS_DIR}/ApiNetwork/ApiNetwork.framework
+${BUILT_PRODUCTS_DIR}/Common/Common.framework
+${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework

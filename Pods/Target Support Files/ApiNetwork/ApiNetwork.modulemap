@@ -1,0 +1,6 @@
+framework module ApiNetwork {
+  umbrella header "ApiNetwork-umbrella.h"
+
+  export *
+  module * { export * }
+}
